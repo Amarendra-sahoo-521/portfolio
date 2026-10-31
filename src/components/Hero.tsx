@@ -1,5 +1,3 @@
-import Aurora from '@/components/ui/Aurora'
-import BlurText from '@/components/ui/BlurText'
 
 export default function Hero() {
   return (
