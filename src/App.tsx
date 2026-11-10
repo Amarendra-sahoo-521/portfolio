@@ -12,7 +12,7 @@ export default function App() {
       <main>
         <SplashCursor
           rainbow={false}
-          size={1}
+          size={0.45}
           force={1}
           swirl={3}
           trail={1}
