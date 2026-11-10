@@ -331,7 +331,7 @@ function SplashCursor({
   contained = false,
   theme = 'dark',
   zIndex = 50,
-  className = '',
+  className = 'hidden lg:block',
   style
 }: SplashCursorProps) {
   const rootRef = useRef<HTMLDivElement>(null);
@@ -1028,6 +1028,7 @@ function SplashCursor({
       style={{ zIndex, ...style }}
       data-contained={contained ? '' : undefined}
       aria-hidden="true"
+    
     >
       <canvas ref={canvasRef} className={CANVAS} />
     </div>

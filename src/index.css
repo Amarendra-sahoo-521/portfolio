@@ -33,7 +33,7 @@
 }
 
 @layer components {
-  .section { @apply mx-auto max-w-5xl px-6 py-28; }
+  .section { @apply mx-auto max-w-5xl px-6 py-20 sm:py-28; }
   .heading { @apply mb-12 text-3xl font-extrabold tracking-tight text-slate-900 dark:text-white md:text-4xl; }
   .gradient-text {
     @apply animate-gradient bg-gradient-to-r from-indigo-500 via-fuchsia-500 to-amber-400 bg-[length:200%_200%] bg-clip-text text-transparent;

@@ -3,7 +3,7 @@ import Reveal from './Reveal'
 
 export default function Projects() {
   return (
-    <section id="projects" className="section">
+    <section id="projects" className="section pt-0 sm:pt-28">
       <Reveal><h2 className="heading">Projects</h2></Reveal>
       <div className="grid gap-6 md:grid-cols-2">
         {projects.map((p, i) => (
