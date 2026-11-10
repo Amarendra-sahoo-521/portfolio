@@ -15,6 +15,13 @@ export const projects: Project[] = [
   //   repo: 'https://github.com/you/project-one',
   // },
   {
+    title: 'IPL 2025',
+    description: 'IPL 2025 is a web application that provides live scores, player stats, and team information for the Indian Premier League (IPL) cricket tournament.',
+    tech: ['React', 'TypeScript','Node.js', 'Express.js','MySQL','tailwindcss','react-router-dom','vercel','TiDB Cloud'],
+    live: 'https://ipl-ui-six.vercel.app',
+    repo: 'https://github.com/Amarendra-sahoo-521/IPL_UI',
+  },
+  {
     title: 'Snap Class',
     description: 'AI-Based Smart Attendance System',
     tech: ['Python', 'numpy','pandas', 'Supabase','dlib','resemblyzer','streamlit'],
